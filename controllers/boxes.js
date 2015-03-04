@@ -13,6 +13,9 @@ AusterityBox.BoxesController = Ember.ArrayController.extend({
       var newBox = this.store.createRecord('boxes', {
         name: this.get('name'),
         description: this.get('description')
+
+        this.set("name", "");
+        this.set("description", "")
       });
       newBox.save();
       this.transitionToRoute('boxes');
