@@ -1,4 +1,4 @@
-AusterityBox.NewLotController = Ember.Controller.extend({
+AusterityBox.LotController = Ember.Controller.extend({
   actions: {
     save: function() {
       var newLot = this.store.createRecord('lot', {

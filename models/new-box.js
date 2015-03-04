@@ -1,4 +1,4 @@
-AusterityBox.Box = DS.Model.extend({
+AusterityBox.NewBox = DS.Model.extend({
   name: DS.attr(),
   description: DS.attr()
 })
