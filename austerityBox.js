@@ -1,0 +1,1 @@
+AusterityBox = Ember.Application.create();

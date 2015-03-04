@@ -1,0 +1,19 @@
+h1 {
+  color: white;
+  font-family: 'Permanent Marker', cursive;
+  font-weight: 600;
+  padding-left: 15px;
+}
+
+h3 {
+  font-family: 'Advent Pro', sans-serif;
+}
+
+p {
+  font-family: 'Advent Pro', sans-serif;
+}
+
+ul li {
+  font-family: 'Advent Pro', sans-serif;
+  font-size: 75%;
+}
