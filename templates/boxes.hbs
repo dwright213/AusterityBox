@@ -4,7 +4,7 @@
 
 <ul>
   {{#each}}
-  <li>{{name}}   <a href="#" {{action 'delete' this}}>Delete</a></li>
+  <li>{{#link-to 'box' this.id}}{{name}}{{/link-to}} | <a href="#" {{action 'delete' this}}>Delete</a></li>
     <ul>
       <li>{{description}}</li>
     </ul>
