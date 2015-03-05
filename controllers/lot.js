@@ -7,8 +7,6 @@ AusterityBox.LotController = Ember.Controller.extend({
         date: this.get('date'),
         box_id: this.get('box_id')
       });
-      newLot.save();
-      this.transitionToRoute('boxes');
     }
   }
 });
