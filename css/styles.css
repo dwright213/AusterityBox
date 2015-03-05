@@ -1,5 +1,5 @@
 h1 {
-  color: white;
+  color: #FAC9DC;
   font-family: 'Permanent Marker', cursive;
   font-weight: 600;
   padding-left: 15px;
@@ -18,3 +18,20 @@ ul li {
   font-family: 'Advent Pro', sans-serif;
   font-size: 125%;
 }
+
+body {
+  background: url(../img/bg.jpg);
+}
+
+.navbar-main {
+}
+
+.navbar-default {
+background: url(../img/white_background.png);
+background-size: auto 100%;
+/*background: hsla(0, 0%, 0%, .03);*/
+}
+
+/*.navbar {
+background: hsla(0, 0%, 0%, .03);
+}*/
