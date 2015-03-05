@@ -17,10 +17,15 @@
   font-size: 125%;
 }
 
-h3,
-h2 {
-  font-family: 'Alegreya', serif;
+h2,
+h1 {
+  font-family: 'Cinzel', serif;
+}
 
+h4,
+h3 {
+  font-family: 'Alegreya', serif;
+  text-decoration: underline;
 }
 
 p {
@@ -51,10 +56,6 @@ body {
   padding-top: 70px;
 }
 
-.carousel {
-    padding-top: 10px;
-}
-
 .carousel, .item, .active {
     width: 100%; /*slider width*/
     height: 100%; /*slider height*/
@@ -70,9 +71,3 @@ body {
     border: none;
     top: 50%;
 }
-/*full width container*/
-/*@media (max-width: 767px) {
-    .block {
-        margin-left: -20px;
-        margin-right: -20px;
-    }*/
