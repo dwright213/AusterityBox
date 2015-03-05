@@ -5,7 +5,6 @@ AusterityBox.LotController = Ember.Controller.extend({
         name: this.get('name'),
         description: this.get('description'),
         date: this.get('date'),
-        box_id: this.get('box_id')
       });
     }
   }
