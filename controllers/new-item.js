@@ -1,16 +1,16 @@
-AusterityBox.NewLotController = Ember.Controller.extend({
+AusterityBox.NewItemController = Ember.Controller.extend({
   needs: ['box'],
   actions: {
     save: function() {
-      var lot = this.store.createRecord('lot', {
+      var item = this.store.createRecord('item', {
         name: this.get('name'),
         description: this.get('description'),
         date: this.get('date'),
       });
-      lot.save();
+      item.save();
 
       var box = this.get('controllers.box.model');
-      box.get('lots').pushObject(lot);
+      box.get('items').pushObject(item);
       box.save();
     }
   }

@@ -1,19 +1,11 @@
 <h3>{{name}}</h3>
 {{description}}
 
-
-
-<h4>Add a lot to this box</h4>
-
-<p>
-  {{#link-to 'new-lot' this.id}}New Lot{{/link-to}}
-</p>
-
 {{outlet}}
 
 
-<h4>Available lots in this box</h4>
+<h4>Available items in this box | {{#link-to 'new-item' this.id}}New item{{/link-to}}</h4>
 
-{{#each lots}}
-  <p>{{name}}</p>
+{{#each items}}
+  <p class="list-title list-unstyled">{{#link-to 'new-item' this.id}}{{name}}{{/link-to}}</p>
 {{/each}}

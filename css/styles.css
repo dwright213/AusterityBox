@@ -1,6 +1,6 @@
 .navbar-brand {
   color: White;
-  font-family: 'Alegreya', serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: 700;
   padding-left: 110px;
   font-size: 400%;
@@ -8,8 +8,12 @@
 
 }
 
+.navbar-brand {
+  font-family: 'Alegreya', serif;
+}
+
 .navbar-fixed-top {
-    height: 70px;
+  height: 70px;
 }
 
 .collapse {
@@ -25,17 +29,22 @@ h1 {
 h4,
 h3 {
   font-family: 'Alegreya', serif;
-  text-decoration: underline;
 }
 
 p {
-  font-family: 'Alegreya', serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 115%;
+  color: #8B5F65;
 }
 
-ul, li {
-  font-family: 'Alegreya', serif;
-  font-size: 115%;
+.li-name {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.3em;
+  float: bottom;
+}
+.li-desc {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.1em;
   float: bottom;
 }
 
