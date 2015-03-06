@@ -5,7 +5,11 @@ AusterityBox.NewItemController = Ember.Controller.extend({
       var item = this.store.createRecord('item', {
         name: this.get('name'),
         description: this.get('description'),
-        date: this.get('date'),
+        owner: this.get('owner'),
+        bidnumber: this.get('bidnumber'),
+        eststartprice: this.get('eststartprice'),
+        backstory: this.get('backstory'),
+        date: this.get('date')
       });
       item.save();
 
