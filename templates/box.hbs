@@ -7,13 +7,14 @@
 <h4>Available items in this box | {{#link-to 'new-item' this.id}}New item{{/link-to}}</h4>
 
 {{#each items}}
+  <hr>
   <p class="list-title list-unstyled">{{#link-to 'new-item' this.id}}{{name}}{{/link-to}}</p>
-  <p class="list-title list-unstyled">{{description}}</p>
-  <p class="list-title list-unstyled">{{owner}}</p>
-  <p class="list-title list-unstyled">{{bidnumber}}</p>
-  <p class="list-title list-unstyled">{{eststartprice}}</p>
-  <p class="list-title list-unstyled">{{backstory}}</p>
-  <p class="list-title list-unstyled">{{date}}</p>
+  <p class="list-title list-unstyled"><i>Description:</i> {{description}}</p>
+  <p class="list-title list-unstyled"><i>Current owner:</i> {{owner}}</p>
+  <p class="list-title list-unstyled"><i>Bid Number:</i> {{bidnumber}}</p>
+  <p class="list-title list-unstyled"><i>Startig Bid:</i> {{eststartprice}}</p>
+  <p class="list-title list-unstyled"><i>Backstory:</i> {{backstory}}</p>
+  <p class="list-title list-unstyled"><i>Date Aquired:</i> {{date}}</p>
 
 {{/each}}
 
